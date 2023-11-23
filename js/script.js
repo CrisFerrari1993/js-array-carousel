@@ -9,5 +9,22 @@ Consegna:
 */
 
 // Assegnazione della variabili
+let items = document.getElementsByClassName('item');
+let forwardButton = document.getElementById('forward');
 
+let activeItem = 0;
+console.log(items);
+
+document.querySelector('.img_container')
+forwardButton.addEventListener('click', function() {
+    if(activeItem < items.length - 1) {
+        items[activeItem].classList.remove('active');
+
+        //incremento l'index dell'elemento da visualizzare
+        activeItem++;
+
+        // aggiungo la classe item all'elemento successivo
+    }
+}
+);
 
