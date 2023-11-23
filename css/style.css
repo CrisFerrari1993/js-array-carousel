@@ -10,3 +10,12 @@
 :root {
     font-family: Arial, Helvetica, sans-serif;
 }
+/***********************************
+    MAIN SECTION RULES
+************************************/
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https:img.freepik.com/premium-photo/white-colors-podium-abstract-backgroundminimal-geometric-shape-3d-rendering_48946-155.jpg);
+    background-size: cover;
+}
