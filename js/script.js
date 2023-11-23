@@ -24,6 +24,7 @@ forwardButton.addEventListener('click', function() {
         activeItem++;
 
         // aggiungo la classe item all'elemento successivo
+        items[activeItem].classList.add('active');
     }
 }
 );
