@@ -18,4 +18,38 @@
     height: 100vh;
     background-image: url(https:img.freepik.com/premium-photo/white-colors-podium-abstract-backgroundminimal-geometric-shape-3d-rendering_48946-155.jpg);
     background-size: cover;
+    position: relative;
+}
+
+.carousel{
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.rounded {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.img_container{
+    position: relative;
+    min-width: 300px;
+    min-height: 300px;
+}
+#forward {
+    position: absolute ;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#backward {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%);
 }
