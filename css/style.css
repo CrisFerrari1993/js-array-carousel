@@ -32,7 +32,10 @@
 .rounded {
     padding: 1rem;
     border-radius: 50%;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.7);
+}
+.img_container i {
+    color: white;
 }
 
 .img_container{
