@@ -1,0 +1,106 @@
+/***********************************
+    GENERAL PAGE RULES
+************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/***********************************
+    MAIN SECTION RULES
+************************************/
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https:wallpapercosmos.com/w/full/e/7/3/1261429-3840x2160-desktop-4k-the-playstation-wallpaper-photo.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+/***********************************
+    CAROUSEL RULES
+***********************************/
+/* IMG CONTAINER RULES */
+.carousel{
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    height: 500px;
+}
+
+.rounded {
+    padding: 0.6rem 0.7rem;
+    border-radius: 50%;
+    border: none;
+}
+
+.img_container{
+    position: relative;
+    width: 800px;
+    height: 500px;
+}
+#forward {
+    position: absolute ;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#backward {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+.item {
+    display: none;
+}
+.item img{
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    
+}
+.hidden {
+    display: none;
+}
+.active {
+    display: block;
+}
+
+/* SIDEBAR RULES */
+.side_item{
+    height: calc(100% / 5);
+    position: relative;
+    display: flex;
+}
+
+.side_item img {
+    width: 200px;
+    height: 100%;
+    border: 2px solid;
+}
+
+.fill {
+    object-fit:cover;
+}
+
+.layhover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100% ;
+    background-color: rgba(0, 0, 0, 0.9)
+}
+.null {
+    display: none;
+}
